@@ -8,4 +8,4 @@ To view database:
 sqlitebrowser
 
 To load database:
-python3 manage.py load_pet_data
+python3 manage.py load_expert_data
