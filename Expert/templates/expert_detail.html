@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div>
+    <h3>{{ expert.name|capfirst }}</h3>
+    <p>Trust Quotien (TQ): {{ expert.tq_value }}</p>
+    {% if expert.degree %}
+	<p>Degree: {{ expert.degree }}</p>
+    {% endif %}
+    {% if expert.degree_subject %}
+	<p>{{ expert.degree_subject }}</p>
+    {% endif %} 
+    {% if expert.num_skills %}
+        <p>Number of Relevant Skills: {{ expert.num_skills }}</p>
+    {% endif %}
+    {% if expert.skills.all %}
+	<p>Expert in:</p>
+	<ul>
+	    {% for skill in expert.skills.all %}
+	    	<li>{{ skill.skill_name }}</li>
+	    {% endfor %}
+	</ul>
+    {% endif %}
+    <p>TiiQu Member since : {{ expert.membership_date|date:"M d Y" }}</p>
+    <p>{{ expert.description }}</p>
+</div>
+{% endblock %}

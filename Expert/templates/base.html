@@ -1,0 +1,50 @@
+{% load static %}
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Home - TiiQu Suitability Match</title>
+        <link rel="stylesheet" id="ample-style-css" href="{% static 'style.css' %}" type="text/css" media="all">
+    </head>
+    <body class="wide">
+        <div id="page" class="hfeed site">
+            <header>
+                <div class="header">
+                    <div class="main-head-wrap inner-wrap clearfix">
+                        <div id="header-logo-image">
+                            <a href="/">
+				<img src="https://tiiqu.com/wp-content/uploads/2018/03/tq_logo.png" alt="TiiQu">
+                            </a>
+                        </div>
+                        <div id="header-text" class="">
+                            <h1 id="site-title">
+                                <a href="/" title="TiiQu Suitability" rel="home">TiiQu Suitability Match</a>
+                            </h1>
+                            <p>Empowering smart people to carry out smart contracts.</p>
+                        </div>
+                    </div>
+		    <!-- img src="{% static 'images/tiiqu_header.png'%}" alt="TiiQu"></div --> 
+                </div>
+            </header>
+            <div class="main-wrapper">
+                <div class="single-page clearfix">
+                    <div class="inner-wrap">
+                        <p>Welcome to TiiQu's suitability match system. Here, we have a very precise agenda. The creation of a trustless global platform where employee-employer collaborations are facilitated via smart contracts. For skill professionals, this means unbounded opportunities for career growth, made possible through a state-of-the-art algorithm that will provide customized recommendations of jobs that best match their skills and interests. For employers, the TiiQu suitability algorithm will guarantee access to the liquid workforce needed to succeed in a fast changing tech world. The present version of the algorithm is a simple proof of concept, allowing an employer to search for employees that meet a desired Trust Quotien (TQ) requirement and a minimum number of skills. 
+			</p>
+                        <hr>
+                        <div>
+                        {% block content %}
+			{% endblock %} 
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+            <footer id="colophon">
+                <div class="inner-wrap">
+                    Names and user_names used here are fictitious, solely for the purpose of developing the TQ suitability algorithm. Any resemblance to real individuals is purely coincidental. 
+                </div>
+            </footer>
+        </div>
+    <script src="{% static 'main.js' %}"></script> 
+    </body>
+</html>

@@ -1,0 +1,25 @@
+Expert,User Name,Degree,Subject,Occupation,Gender,Years of Experience,TQ value,Membership Date,Skills,Number of Skills,Short Description
+Anne,anne,B.Sc,Computer Science,Web developer at Google ,F,0,2,11/28/2016 13:30,Programming| Java| Web Development| Linux,4,Web developer at Google 
+Maggy,magy,M.Sc,Mathematics,math teacher ,F,2,2,11/28/2016 14:45,Teaching| Leadership| Communication| Public Speaking,4,math teacher 
+Andre,anre,B.Sc,Mathematics,Bank of America intern ,M,3,5,11/29/2016 13:15,Project Management| Leadership| Communication| Data Analysis,4,Bank of America intern 
+Hilaire,hire,P.hD,Electrical Engineering,no experience,M,1,6,11/29/2016 10:00,Research| Communication| Data Analysis| Teaching,4,no experience
+Sophie,soie,P.hD,Physics,postdoc at NP Lab,F,13,6,11/29/2016 14:30,Research| Programming| Data Analysis| Teaching| Problem Solving,5,postdoc at NP Lab
+Rodrigue,roue,P.hD,Mathematics,High school teacher for,M,5,3,11/28/2016 10:15,Research| Communication| Data Analysis| Teaching| Problem Solving,5,High school teacher for
+Mike,mike,B.Sc,Biology,researcher,M,7,4,11/28/2016 16:00,Research| Communication| Data Analysis| Teaching| Problem Solving,5,researcher
+Melanie,meie,M.Sc,Chemistry,Thor Lab consultant,F,5,7,11/28/2016 09:00,Research| Communication| Data Analysis,3,Thor Lab consultant
+Melany,meny,M.Sc,Biochemistry,researcher at Biopharma,F,2,4,11/29/2016 16:00,Research| Communication| Data Analysis,3,researcher at Biopharma
+Authur,auur,M.Sc,Information Technology,IT security analyst at DOXigen,M,8,5,11/29/2016 08:30,Programming| Linux| Data Analysis,3,IT security analyst at DOXigen
+Michelle,mile,P.hD,Computer Science,Web developer at Google ,F,1,2,12/1/2016 13:00,Research| Linux| Programming| Problem Solving,4,Web developer at Google 
+Monique,moue,P.hD,Bioinformatics,Degole University researcher,F,3,8,12/1/2016 11:30,Research| Linux| Programming| Problem Solving,4,Degole University researcher
+Tyler,tyer,B.Sc,Mathematics,Quant at JM Bank,M,10,5,12/1/2016 8:45,Research| Problem Solving| Programming| Communication,4,Quant at JM Bank
+Chris,chis,B.Sc,Chemical Engineering,Consultant ,M,4,8,12/2/2016 13:30,Research| Linux| Programming| Problem Solving,4,Consultant 
+Megan,mean,B.Sc,Physics,High school teacher ,F,3,9,11/29/2016 11:45,Communication| Teaching| Problem Solving,3,High school teacher 
+Idris,idis,Others,Mathematics,High school teacher ,M,5,6,11/30/2016 10:15,Communication| Teaching,2,High school teacher 
+Luke,luke,P.hD,Computer Science,Lecturer,M,1,0,11/30/2016 11:30,Java| Teaching| Programming| Problem Solving| Web Development,5,Lecturer
+Andrea,anea,M.Sc,Applied Data Science,Facebook data scientist,F,3,2,11/30/2016 14:30,Programming| Linux| Data Analysis| Machine Learning,4,Facebook data scientist
+Gabriel,gael,P.hD,Machine Learning,Machine Learning engineer at dataiKu,M,8,3,11/30/2016 15:45,Programming| Linux| Data Analysis| Machine Learning| Problem Solving,5,Machine Learning engineer at dataiKu
+Yuan,yuan,P.hD,Bioinformatics,currently unemployed ,M,5,4,12/2/2016 10:15,Programming| Linux| Data Analysis| Machine Learning| Problem Solving,5,currently unemployed 
+Zie,zie,M.Sc,Computer Science,private contractor,F,10,4,11/30/2016 9:00,Programming| Linux,2,private contractor
+Ngalani,ngni,P.hD,Chemical Engineering,unemployered,M,8,6,12/1/2016 10:00,Programming| Linux| Data Analysis,3,"Curently unemployered, but has worked for the government for 10 years before taking a break for personal reasons."
+Youkwe,yowe,B.Sc,Scientific Computing,Student/Intern,F,1,8,12/1/2016 15:15,Programming| Communication,2,researcher
+Eddie,edie,M.Sc,Public Health,NIH researcher,F,6,3,12/2/2016 15:00,Project Management| Leadership| Data Analysis,3,NIH researcher

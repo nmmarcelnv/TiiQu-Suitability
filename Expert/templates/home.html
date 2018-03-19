@@ -1,0 +1,24 @@
+{% extends "base.html" %} <!--means this html uses base.html -->
+{% block content %}       <!--means the block content in base.html will be replace by this block-->
+<ul class="nav nav-pills nav-stacked">
+	<!-- <li><a href='/'>Home</a></li> -->
+	<!-- <li><a href='/Expert/'>Experts</a></li> -->
+	<li><a href='/Expert/search/'>Customized Search</a></li>
+</ul>
+
+<div>
+	{% for expert in experts %}
+	    <div class="expertname">
+	      <a href="{% url 'expert_detail' expert.id %}">
+		<h3>{{expert.name|capfirst}}</h3>
+              </a>
+	      <p>Trust Quotien (TQ): {{expert.tq_value}}</p>
+	      {% if expert.degree %}
+		<p>Degree: {{ expert.degree }} </p>
+	      {% endif %}
+	      <p>{{expert.degree_subject}}</p>
+	      <p class="hidden">{{expert.description}}</p>
+	    </div>
+	{% endfor %}
+</div>
+{% endblock %}

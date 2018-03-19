@@ -1,0 +1,40 @@
+<form method=post action="">{% csrf_token %}
+<table>
+  {% for field in form %}
+    <tr>
+    <!-- uncomment this line to display variable name on web 
+	<td>{{ field.name }}</td>  -->
+    <td>{{ field }}</td>
+    <td>{{ field.label }}</td>
+    <td>{{ field.errors }}</td>
+    <td></td>
+    </tr>
+  {% endfor %}
+</table>
+
+<p><input type=submit value="Search Expert" ></form></p>
+
+{% if experts != None %}
+{% for expert in experts %}
+<div>
+    <h3>{{ expert.name|capfirst }}</h3>
+    <p>Trust Quotien (TQ): {{ expert.tq_value }}</p>
+    {% if expert.degree %}
+        <p>Degree: {{ expert.degree }}</p>
+    {% endif %}
+    {% if expert.degree_subject %}
+        <p>{{ expert.degree_subject }}</p>
+    {% endif %}
+    {% if expert.skills.all %}
+        <p>Expert in:</p>
+        <ul>
+            {% for skill in expert.skills.all %}
+                <li>{{ skill.skill_name }}</li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    <p>TiiQu Member since : {{ expert.membership_date|date:"M d Y" }}</p>
+    <p>{{ expert.description }}</p>
+</div>
+{% endfor %}
+{% endif %}
