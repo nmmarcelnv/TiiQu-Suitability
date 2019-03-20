@@ -1,1 +1,1 @@
-TiiQu Suitability algorithm. This is an application I was developing as part of the [TiiQu](https://tiiqu.com/team/) project
+TiiQu Suitability algorithm. This is a sample of the application I developed as a member of the [TiiQu](https://tiiqu.com/team/) project.
